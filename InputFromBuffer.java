@@ -8,5 +8,7 @@ public class InputFromBuffer {
         BufferedReader br=new BufferedReader(inputStream);
         int a= Integer.parseInt( br.readLine());
         System.out.println(a);
+        br.close();
     }
+    
 }
