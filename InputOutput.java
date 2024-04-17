@@ -1,5 +1,7 @@
 package javacourse;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public class InputOutput {
@@ -13,7 +15,12 @@ public class InputOutput {
         // PS D:\Program Files\javacourse> java InputOutput.java 1000 200
         // 1000
         // 200
-        
+        System.out.printf("%d",33);
+        System.out.printf("%f",44.4f);
+        SimpleDateFormat date=new SimpleDateFormat("yyyy-mm-dd");
+        String str1=date.format(new Date());
+        System.out.println(new Date());
+        System.out.println(str1);
         // Scanner using 
         Scanner scanner=new Scanner(System.in);
         float ft=scanner.nextFloat();
