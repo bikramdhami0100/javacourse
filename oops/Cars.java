@@ -1,6 +1,6 @@
 package oops;
 //encapsulation
-
+import java.lang.*;
  class Cars {
  private int carnum=1001;
  private int modelno;
@@ -16,6 +16,7 @@ private void carShow(){
  }
  public static void main(String[] args) {
     Cars cr=new Cars();
+     LAN
         cr.carShow();
  }
    
